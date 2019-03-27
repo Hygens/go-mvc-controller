@@ -48,7 +48,7 @@ func (c *MyController) Example(rw http.ResponseWriter, r *http.Request) error {
 }
 
 func main() {
-	// Instance for main contrller
+	// Instance for main controller
 	c := &MyController{Render: render.New(render.Options{})}
 
 	// Server mux for simple handle routes
